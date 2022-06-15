@@ -142,5 +142,29 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+//Add a copy btn
+document.getElementById("copy").addEventListener("click", copy);
+
+//copy function
+async function copy () {
+  if (passwordIsGenerated){
+  let text = document.querySelector("#password").value;
+  await navigator.clipboard.writeText(text);
+  window.alert("Password copied!");
+  } else {
+    window.alert("Please generate a password before copying!")
+  }
+}
+
+//Get reference to the #reset element
+var resetBtn = document.querySelector("#reset");
+
+//reset's the page
+var resetPassword = function() {
+  document.location.reload();
+}
+
+//Add event listener to reset button
+resetBtn.addEventListener("click", resetPassword)
 
 combiningHas();
