@@ -90,7 +90,7 @@ var include = function() {
 
   hasSpecial = conditions("special characters");
 
-  if (!hasLower && !hasUpper && !hasLower && !hasSpecial){
+  if (!hasNumbers && !hasUpper && !hasLower && !hasSpecial){
     window.alert("You need to pick at least one valid option for your password!");
 
     return include();
