@@ -16,9 +16,9 @@ The password generator aides users in creating new passwords. The website asks u
 
 ## Usage and Website
 
-[The Password Generator](https://kirstgonz.github.io/password-generator/) helps users create random passwords. It can be accessed by clicking 'The Password Generator' or clicking on the link below. No installation is necessary.
+[The Password Generator](https://kirstgonz.github.io/generate-password/) helps users create random passwords. It can be accessed by clicking 'The Password Generator' or clicking on the link below. No installation is necessary.
 
-- https://kirstgonz.github.io/password-generator/
+- https://kirstgonz.github.io/generate-password/
 
 Users are asked to pick the amount of characters in their password between 8-128.
 ![pwLength](assets/images/pwlength.png)
